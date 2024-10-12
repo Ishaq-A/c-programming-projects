@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/My Documents Folder/C Projects/Help/main.c
+stdio.h
+-
+other.h
+D:/My Documents Folder/C Projects/Help/other.h
+
+D:/My Documents Folder/C Projects/Help/other.c
+other.h
+D:/My Documents Folder/C Projects/Help/other.h
+
+D:/My Documents Folder/C Projects/Help/other.h
+

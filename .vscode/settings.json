@@ -1,0 +1,28 @@
+{
+    "files.autoSave": "afterDelay",
+    "terminal.integrated.tabs.enabled": true,
+    "terminal.integrated.allowWorkspaceConfiguration": true,
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+        "Bash": {
+            "path":[
+                "C\\cygwin64\\bin\\basah.exe",
+            ]
+        }
+    },
+    "cmake.configureOnOpen": false
+}
